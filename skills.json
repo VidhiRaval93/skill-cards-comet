@@ -1,0 +1,87 @@
+[
+  {
+    "id": "newsletter-summary",
+    "title": "Summarize Emails from Today",
+    "description": "Summarize today's emails in 5 quick bullet points",
+    "promptTemplate": "Summarize the key takeaways from emails I received today. Return 5 bullet points.",
+    "mode": "assistant"
+  },
+  {
+    "id": "weekend-activities",
+    "title": "Find Weekend Activities",
+    "promptTemplate": "Find 5 interesting local events or things to do near me this weekend using online sources.",
+    "mode": "browser"
+  },
+  {
+    "id": "schedule-1on1",
+    "title": "Set 1:1 with [Name]",
+    "promptTemplate": "Check my calendar and set up a 30-minute 1:1 meeting with {name} next week.",
+    "requiresInput": true,
+    "mode": "assistant"
+  },
+  {
+    "id": "ai-trends",
+    "title": "AI Trends Today",
+    "promptTemplate": "What are the top trending news or developments in AI today? Provide 3 short summaries with links from public sources.",
+    "mode": "browser"
+  },
+  {
+    "id": "email-summary",
+    "title": "Summarize My Emails",
+    "promptTemplate": "Summarize the key points from my emails today and flag any urgent items that need my attention.",
+    "mode": "assistant"
+  },
+  {
+    "id": "draft-replies",
+    "title": "Draft My Message Replies",
+    "promptTemplate": "Draft professional replies to my recent messages, keeping them concise and actionable.",
+    "mode": "assistant"
+  },
+  {
+    "id": "calendar-check",
+    "title": "Check My Calendar",
+    "promptTemplate": "Review my calendar for this week and suggest any scheduling conflicts or opportunities for better time management.",
+    "mode": "assistant"
+  },
+  {
+    "id": "tech-news",
+    "title": "Latest Tech News",
+    "promptTemplate": "What are the top 3 trending topics in tech today? Find the latest news from reliable online sources.",
+    "mode": "browser"
+  },
+  {
+    "id": "competitor-comparison",
+    "title": "Competitor Analysis",
+    "promptTemplate": "Compare {companyA} and {companyB} on product, pricing, and strategy using my knowledge base.",
+    "requiresInput": true,
+    "mode": "assistant"
+  },
+  {
+    "id": "industry-brief",
+    "title": "Weekly Industry Brief",
+    "promptTemplate": "Summarize the top news in {industry} this week with citations from trusted sources.",
+    "requiresInput": true,
+    "mode": "assistant"
+  },
+  {
+    "id": "startup-landscape",
+    "title": "Startup Landscape",
+    "promptTemplate": "List top startups in {sector} founded after 2020 with funding info from public sources.",
+    "requiresInput": true,
+    "mode": "browser"
+  },
+  {
+    "id": "meeting-prep",
+    "title": "Prepare for [Meeting]",
+    "promptTemplate": "Help me prepare for my upcoming {meeting} by summarizing key points and suggesting questions to ask.",
+    "requiresInput": true,
+    "mode": "assistant"
+  },
+  {
+    "id": "research-topic",
+    "title": "Research [Topic]",
+    "promptTemplate": "Research {topic} and provide a comprehensive overview with recent developments and key players from online sources.",
+    "requiresInput": true,
+    "mode": "browser"
+  }
+]
